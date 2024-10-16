@@ -6,10 +6,10 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': {
-        target: "https://gateway-registry-system.onrender.com",
-        changeOrigin: true
-      }
+      // '/api': {
+      //   target: "https://gateway-registry-system.onrender.com",
+      //   changeOrigin: true
+      // }
     }
   }
 })
