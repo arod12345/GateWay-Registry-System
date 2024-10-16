@@ -106,7 +106,7 @@ const ArmSection = ({ data }) => {
 
   return (
     <div className="my-6 font-bold flex flex-col">
-      <h1 className="text-mainThemeColor text-xl">Arms Data</h1>
+      <h1 className="text-mainThemeColor text-xl">Firearms Data</h1>
       <div className="flex items-center w-full justify-between ">
         <div className="flex items-center">
           <div className="flex w-fit my-3 text-sm mr-4 font-bold items-center rounded-full px-4 py-2 bg-gray-300">
@@ -156,11 +156,11 @@ const ArmSection = ({ data }) => {
         <div className="grid grid-cols-2 gap-6">
           <div className="flex flex-col p-1 shadow-md bg-[#ffffff90] h-[22em] items-center justify-center border border-gray-100 rounded-lg">
             <Barchart chartData={chartData} />
-            <p>Weapons Data by Weapons Types</p>
+            <p>Firearms Data by Firearms Types</p>
           </div>
           <div className="flex flex-col p-1 shadow-md bg-[#ffffff90] h-[22em] items-center justify-center border border-gray-100 rounded-lg">
             <LineChart chartData={chartIdData} />
-            <p>Weapons Data by Weapons ID</p>
+            <p>Firearms Data by Firearms ID</p>
           </div>
         </div>
       </div>

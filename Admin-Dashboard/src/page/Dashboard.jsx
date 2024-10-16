@@ -71,14 +71,14 @@ const Dashboard = () => {
       id: 2,
       border: "4px solid #6495ed"
     },
-    // {
-    //   icon: <FaGun size={25} />,
-    //   content: "Weapons",
-    //   data: weaponsData.length,
-    //   color: "#e00e67",
-    //   id: 3,
-    //   border: "4px solid #e00e67"
-    // },
+    {
+      icon: <FaGun size={25} />,
+      content: "Firearms",
+      data: weaponsData.length,
+      color: "#e00e67",
+      id: 3,
+      border: "4px solid #e00e67"
+    },
     {
       icon: <FaCar size={25} />,
       content: "Vehicles",
@@ -121,7 +121,7 @@ const Dashboard = () => {
                   Something went Wrong
                 </span>}
           </p>
-          <div className="grid w-full place-items-center px-2 grid-col-1 sm:grid-cols-3 gap-2">
+          <div className="grid w-full place-items-center px-1 grid-col-1 sm:grid-cols-4 gap-1">
             {cardData.map(item => {
               return (
                 <InfoCard
@@ -151,7 +151,7 @@ const Dashboard = () => {
 
           {/* data */}
           <VisitorSection data={visitorsData} />
-          {/* <ArmSection data={weaponsData} /> */}
+          <ArmSection data={weaponsData} />
           <VehicleSection data={vehicleData} />
         </div>
       </div>

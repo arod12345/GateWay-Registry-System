@@ -123,7 +123,7 @@ const SideBar = () => {
         </Link>
 
         {/*<hr className="my-2 bg-mainThemeColor" />*/}
-       {/* <p>ARM'S CONTROLLER</p>
+       <p>FIREARMS'S CONTROLLER</p>
        <Link to='/armscontroller'>
         <h2 className={ isActiveLink(
                 "/armscontroller"
@@ -131,9 +131,9 @@ const SideBar = () => {
                 ? "active"
                 : ""}>
         <FaBookmark className="mr-4"/>
-        {collapse == false && <span>Arms Controller</span>}
+        {collapse == false && <span>Firearms Controller</span>}
         </h2>
-       </Link> */}
+       </Link>
         {/*<hr className="my-2 bg-mainThemeColor" />*/}
         <p>LIST</p>
         <Link to="/home">
@@ -142,12 +142,12 @@ const SideBar = () => {
             {collapse == false && <span>Vistors List</span>}
           </h2>
         </Link>
-        {/* <Link to="/registeredarmslist">
+        <Link to="/registeredarmslist">
           <h2 className={isActiveLink("/registeredarmslist") ? "active" : ""}>
             <FaList className="mr-4" />
-            {collapse == false && <span>Registerd Arm's List</span>}
+            {collapse == false && <span>Registerd Firearm's List</span>}
           </h2>
-        </Link> */}
+        </Link>
         <Link to="/registeredvehicleslist">
           <h2
             className={isActiveLink("/registeredvehicleslist") ? "active" : ""}
@@ -169,7 +169,7 @@ const SideBar = () => {
         <Link to="/armsreport">
           <h2 className={isActiveLink("/armsreport") ? "active" : ""}>
             <FaChartSimple className="mr-4" />
-            {collapse == false && <span>Registered Arm's Report</span>}
+            {collapse == false && <span>Registered Firearm's Report</span>}
           </h2>
         </Link>
         <Link to="/vehiclesreport">

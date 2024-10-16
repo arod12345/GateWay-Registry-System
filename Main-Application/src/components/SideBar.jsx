@@ -111,7 +111,7 @@ const SideBar = () => {
         </Link>
 
         {/*<hr className="my-2 bg-mainThemeColor" />*/}
-       {/* <p>ARM'S CONTROLLER</p>
+       <p>FIREARM'S CONTROLLER</p>
        <Link to='/armscontroller'>
         <h2 className={ isActiveLink(
                 "/armscontroller"
@@ -121,7 +121,7 @@ const SideBar = () => {
         <FaBookmark className="mr-4"/>
         {collapse == false && <span>Arms Controller</span>}
         </h2>
-       </Link> */}
+       </Link>
              
 
         <p>REGISTRATION</p>
@@ -131,12 +131,12 @@ const SideBar = () => {
             {collapse == false && <span>Visitors Registration</span>}
           </h2>
         </Link>
-        {/* <Link to="/armsRegistration">
+        <Link to="/armsRegistration">
           <h2 className={isActiveLink("/armsRegistration") ? "active" : ""}>
             <FaGun className="mr-4" />
-            {collapse == false && <span>Arm's Registration</span>}
+            {collapse == false && <span>Firearm's Registration</span>}
           </h2>
-        </Link> */}
+        </Link>
         <Link to="/carRegistration">
           <h2 className={isActiveLink("/carRegistration") ? "active" : ""}>
             <FaCar className="mr-4" />
@@ -150,6 +150,13 @@ const SideBar = () => {
           <h2 className={isActiveLink("/home") ? "active" : ""}>
             <FaList className="mr-4" />
             {collapse == false && <span>Vistors List</span>}
+          </h2>
+        </Link>
+
+        <Link to="//registeredarmslist">
+          <h2 className={isActiveLink("/home") ? "active" : ""}>
+            <FaList className="mr-4" />
+            {collapse == false && <span>Registerd Firearms List</span>}
           </h2>
         </Link>
         
