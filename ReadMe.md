@@ -116,6 +116,7 @@ Add ENV file to your ```server``` directory
 Check out the live demo of the GateWay Registry System at: 
      
      https://gate-way-registry-system.vercel.app
+     https://gate-way-registry-system-okoy.vercel.app/
 
 The source code for this project is available on GitHub:
 
